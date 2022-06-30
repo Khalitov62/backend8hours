@@ -1,0 +1,157 @@
+#business {
+  background-color: black;
+}
+
+#business .container .row .logo strong {
+  font-size: 30px;
+}
+
+#business .container .row .logo h2 {
+  color: white;
+  font-size: 40px;
+}
+
+#business .container .row .navbar ul li a {
+  text-decoration: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+}
+
+#slider section .carousel {
+  -webkit-filter: contrast(80%);
+          filter: contrast(80%);
+}
+
+#slider section .carousel .carousel-inner .carousel-item .carousel-caption {
+  margin-bottom: 20%;
+}
+
+#slider section .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 25px;
+  -webkit-filter: contrast(200%);
+          filter: contrast(200%);
+  -webkit-filter: brightness(130%) drop-shadow(5px 5px 5px black);
+          filter: brightness(130%) drop-shadow(5px 5px 5px black);
+}
+
+#slider section .carousel .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 40px;
+  -webkit-filter: contrast(200%);
+          filter: contrast(200%);
+  -webkit-filter: brightness(130%) drop-shadow(5px 5px 5px black);
+          filter: brightness(130%) drop-shadow(5px 5px 5px black);
+}
+
+#slider section .carousel .carousel-inner .carousel-item .carousel-caption button {
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #3a8080;
+  border-color: #3a8080;
+  color: white;
+  -webkit-filter: contrast(200%);
+          filter: contrast(200%);
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+#cardss .container .row .services h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#cardss .container .row .cards .card {
+  border-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cardss .container .row .cards .card .card-body i {
+  font-size: 35px;
+}
+
+#cardss .container .row .cards .card .card-body i:hover {
+  color: #3a8080;
+}
+
+#cardss .container .row .cards .card .card-body h5 {
+  font-size: 25px;
+}
+
+#cardss .container .row .cards .card .card-body h5:hover {
+  color: #3a8080;
+}
+
+#contact .container .row .cards .card {
+  border-color: white;
+}
+
+#contact .container .row .cards .card i {
+  font-size: 35px;
+  color: #3a8080;
+}
+
+#contact .container .row .inp .inp4 input {
+  height: 15vh;
+}
+
+#contact .container .row .btn {
+  text-align: center;
+}
+
+#contact .container .row .btn button {
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  border-color: gray;
+}
+
+#foot {
+  background-color: whitesmoke;
+}
+
+#foot .container .row .logo strong {
+  font-size: 30px;
+}
+
+#foot .container .row .logo h2 {
+  color: black;
+  font-size: 40px;
+}
+
+#foot .container .row .logo .icons i {
+  font-size: 25px;
+}
+
+#foot .container .row .information .tag p {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 999px) {
+  #business .container .row .navbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1075px) {
+  #slider section .carousel .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 871px) {
+  #slider section .carousel .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 778px) {
+  #slider section .carousel .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

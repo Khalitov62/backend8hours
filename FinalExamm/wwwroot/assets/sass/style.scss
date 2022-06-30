@@ -1,0 +1,225 @@
+#business {
+    .container {
+        .row {
+
+            .logo {
+                strong {
+                    font-size: 30px
+                }
+                h2 {
+                    color: white;
+                    font-size: 40px
+                }
+            }
+            .navbar {
+                ul {
+                    li {
+                        a {
+                            text-decoration: none;
+                            justify-content: space-around;
+                            color: white
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    background-color: black
+}
+#slider {
+    section {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+
+                        h5 {
+                            font-size: 25px;
+                            filter: contrast(200%);
+                            filter: brightness(130%)
+                            drop-shadow(5px 5px 5px black)
+                        }
+                        p {
+                            font-size: 40px;
+                            filter: contrast(200%);
+                            filter: brightness(130%)
+                            drop-shadow(5px 5px 5px black)
+                        }
+                        button {
+                            font-size: 20px;
+                            border-radius: 20px;
+                            background-color: rgb(58, 128, 128);
+                            border-color: rgb(58, 128, 128);
+                            color: white;
+                            filter: contrast(200%);
+                            filter: brightness(130%)
+                            
+                        }
+                        margin-bottom: 20%;
+
+                    }
+                }
+            }
+            filter: contrast(80%)
+        }
+    }
+}
+
+#cardss{
+    .container{
+        .row{
+            .services{
+                h2{
+                    font-size: 40px;
+                    font-weight: bold;
+                    text-align: center
+
+                }
+                
+            }
+            .cards{ 
+                .card{ 
+
+                    .card-body{
+                        i{
+                            font-size: 35px;
+                            &:hover{
+                                color: rgb(58, 128, 128);
+                            }
+                        }
+                        h5{
+                            font-size: 25px;
+                            &:hover{
+                                color: rgb(58, 128, 128);
+                            }
+                        }
+                    }
+                    border-color: white;
+                    justify-content: center
+                }
+            }
+        }
+    }
+}
+#contact{
+    .container{
+        .row{
+            .cards{
+                .card{
+                    i{
+                        font-size: 35px;
+                        color: rgb(58, 128, 128)
+                    }
+                    border-color: white;
+                }
+            }
+            .inp{
+                .inp4{
+                    input{
+                        height: 15vh
+                    }
+                }
+                
+            }
+            .btn{
+                text-align: center;
+                button{
+                    font-size: 20px;
+                    align-items: center;
+                    border-radius: 20px;
+                    border-color: gray
+                }
+            }
+        }
+    }
+}
+#foot{
+    .container{
+        .row{
+            .logo {
+                strong {
+                    font-size: 30px;
+                    
+                }
+                h2 {
+                    color: black;
+                    font-size: 40px
+                }
+                .icons{
+                    i{
+                        font-size: 25px;
+                    }
+                }
+
+            }
+            .information{
+                .tag{
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    background-color: whitesmoke
+}
+@media only screen and (min-width: 300px) and (max-width: 999px){
+    #business{
+        .container{
+            .row{
+                .navbar{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 1075px){
+    #slider{
+        section{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            margin-bottom: 10%;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}      
+@media only screen and (min-width: 300px) and (max-width: 871px){
+    #slider{
+        section{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            margin-bottom: 10%;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}        
+@media only screen and (min-width: 300px) and (max-width: 778px){
+    #slider{
+        section{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
